@@ -1,0 +1,18 @@
+# Nmap 7.993 scan initiated Fri Oct 30 10:56:56 2026 as: nmap -O -oN /Users/akshayvangari/OIBSIP/Task-1-Network-Scanning/os_scan.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00022s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+8021/tcp open  ftp-proxy
+Device type: general purpose
+Running: Apple macOS 12.X
+OS CPE: cpe:/o:apple:mac_os_x:12
+OS details: Apple macOS 12 (Monterey) (Darwin 21.1.0 - 21.6.0)
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct 30 10:56:57 2026 -- 1 IP address (1 host up) scanned in 1.51 seconds

@@ -1,0 +1,52 @@
+OASIS INFOBYTE - SECURITY ANALYST INTERSHIP
+TASK 1 - BASIC NETWORK SCANNING USING NMAP
+
+SCAN INFORMATION 
+
+Target IP: 127.0.0.1 (Localhost)
+Operating System: macOS
+Tool: Nmap 7.993
+Scan Type: Basic, Service Version, OS Detection
+
+
+
+
+EXECUTED COMMANDS 
+
+nmap 127.1.1.1.0
+nmap -sV 127.1.1.1.0
+sudo nmap -O 127.1.1.1.0
+
+
+1.OPEN PORTS IDENTIFIED
+
+88/tcp    Kerberos Authentication
+445/tcp   SMB File Sharing
+3306/tcp  MySQL Database
+5000/tcp  Apple AirTunes Service
+7000/tcp  Apple AirTunes Service
+8021/tcp  Unidentified Local Service
+
+
+
+2.SERVICES IDENTIFIED
+
+PORT     STATE SERVICE       VERSION
+445/tcp  open  microsoft-ds?
+3306/tcp open  mysql         MySQL 8.0.46
+5000/tcp open  rtsp
+7000/tcp open  rtsp
+8021/tcp open  tcpwrapped
+
+
+3. OS IDENTIFIED
+
+Device type: general purpose
+Running: Apple macOS 12.X
+OS CPE: cpe:/o:apple:mac_os_x:12
+OS details: Apple macOS 12 (Monterey) (Darwin 21.1.0 - 21.6.0)
+
+CONCLUSION
+
+Nmap successfully identified open TCP ports and services
+running on the local system.
